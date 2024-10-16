@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "helvetica";
+    src: local('../fonts/helvetica_bold.otf');
+    font-weight: bold
+}
+
+/* 
+@font-face {
+    font-family: "helvetica";
+    src: local('../fonts/helvetica_bold.otf') format("opentype");
+    font-weight: bold
+} */
+
+@font-face {
+    font-family: "CormorantGaramond";
+    src: url('../fonts/CormorantGaramond.otf');
+    font-weight: light
+}
+
+.cormorant-garamond-light {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.cormorant-garamond-regular {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cormorant-garamond-medium {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.cormorant-garamond-semibold {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.cormorant-garamond-bold {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.cormorant-garamond-light-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.cormorant-garamond-regular-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.cormorant-garamond-medium-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.cormorant-garamond-semibold-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.cormorant-garamond-bold-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+/* @font-face {
+    font-family: "helvetica";
+    src: local('../fonts/helvetica_bold.otf');
+    font-weight: bold
+} */
+
+/* @font-face {
+    font-family: "helvetica";
+    src: local('../fonts/helvetica_bold.otf');
+    font-weight: bold
+}
+ */
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Cormorant Garamond';
+}
+
+
+body {
+    font-family: 'helvetica';
+}
+
+:root {
+    --colorBody: #031F47
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1720px;
+    /* background-color: #031F47 ; */
+
+    /* background-color: red; */
+}
+
+
+.header__logo{
+    background-color: var(--colorBody);
+}

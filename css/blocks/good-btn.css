@@ -1,0 +1,11 @@
+.good__btn {
+    background-color: var(--colorBody);
+    border-radius: 100px;
+    border: 1 solid;
+    border-color: #BC9B6A;
+    color: #BC9B6A;
+    /* font-family: 'Cormorant Garamond'; */
+    width: 172px;
+    height: 36px;
+    padding: 6 49;
+}
