@@ -1,8 +1,8 @@
-@font-face {
+/* @font-face {
     font-family: "helvetica";
     src: local('../fonts/helvetica_bold.otf');
     font-weight: bold
-}
+} */
 
 /* 
 @font-face {
@@ -11,13 +11,13 @@
     font-weight: bold
 } */
 
-@font-face {
+/* @font-face {
     font-family: "CormorantGaramond";
     src: url('../fonts/CormorantGaramond.otf');
     font-weight: light
-}
+} */
 
-.cormorant-garamond-light {
+/* .cormorant-garamond-light {
     font-family: "Cormorant Garamond", serif;
     font-weight: 300;
     font-style: normal;
@@ -75,7 +75,73 @@
     font-family: "Cormorant Garamond", serif;
     font-weight: 700;
     font-style: italic;
+} */
+
+
+/* .lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
+
+.lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+} */
+
+
+
+
+
 
 
 /* @font-face {
@@ -95,6 +161,7 @@ h1,
 h2,
 h3,
 h4 {
+    color: #BC9B6A;
     font-family: 'Cormorant Garamond';
 }
 
@@ -117,6 +184,6 @@ body {
 }
 
 
-.header__logo{
+.header__logo {
     background-color: var(--colorBody);
 }

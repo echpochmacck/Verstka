@@ -1,0 +1,19 @@
+.hero-flex {
+    width: 107rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__slider {
+    display: flex;
+    align-items: center;
+}
+
+.arrow__right{
+    padding-left: 47px;
+}
+
+.arrow__left{
+    padding-right: 47px;
+}
