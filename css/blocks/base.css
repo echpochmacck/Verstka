@@ -184,6 +184,15 @@ body {
 }
 
 
+<<<<<<< HEAD
+/* .header {
+    width: 1720px;
+} */
+
+
+/* .header__logo{
+=======
 .header__logo {
+>>>>>>> c5a5fcdad075fa9ef146d17abcfe8930f8595bbd
     background-color: var(--colorBody);
-}
+} */

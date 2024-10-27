@@ -1,0 +1,73 @@
+.header>.container{
+    display: flex;
+    width: 100%; /* Включает всю ширину экрана */
+    height: 15vh;
+    background-color: var(--colorBody);
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    color: #BC9B6A;
+    justify-content: flex-start;
+    /* flex: 1; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo>svg {
+    padding: 10px;
+}
+.header__phone {
+    color: #BC9B6A;
+    text-align: center;
+    padding: 54px;
+}
+ .header__form{
+    /* padding-right: 5em ; */
+    margin-left: 3.5em;
+    /* position: absolute; */
+    /* align-self: center; */
+    /* display: flex; */
+    /* align-items:center */
+   } 
+.header__input{
+    width: 400px;
+    border-radius: 50px;
+    height: 23px;
+    padding-left: 40px;
+    background: no-repeat;
+    background-color: #ffff;
+
+    background-image: url('../../img/lupa.svg');
+    background-size:20px;
+    background-position:5px;
+}
+.header__nav{
+    align-self: flex-end;
+    padding-right: 1.5em;
+
+}
+.header__nav>ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items:center;
+}
+.header__list-item {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+
+    padding-top:30px
+
+}
+.header__list-text {
+    color:#BC9B6A;
+    display: flex;
+    justify-content: center;
+}
+/* 
+*{
+    background-color: red;
+} */

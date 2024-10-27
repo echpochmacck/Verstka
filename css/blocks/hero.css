@@ -1,5 +1,9 @@
 .hero-flex {
+<<<<<<< HEAD
+    width: 1420px;
+=======
     width: 107rem;
+>>>>>>> c5a5fcdad075fa9ef146d17abcfe8930f8595bbd
     display: flex;
     justify-content: center;
     align-items: center;
