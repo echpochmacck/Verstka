@@ -1,8 +1,8 @@
 .footer {
 /* <<<<<<< HEAD */
-    width: 100%;
+    width: 100vw;
 /* ======= */
-    width: 1920px;
+    /* width: 1920px; */
 /* >>>>>>> c5a5fcdad075fa9ef146d17abcfe8930f8595bbd */
     border-top: 1px solid #BC9B6A;
     /* height: 80px; */
@@ -61,4 +61,16 @@
     align-items: center;
     gap: 20px;
 
+}
+
+.goods__content-price>span{
+    font-weight: 600;
+    color: red;
+}
+
+.goods__item-buy{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 20px;
 }
