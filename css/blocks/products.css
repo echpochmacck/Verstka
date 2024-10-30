@@ -1,4 +1,9 @@
-.goods__item{
+.goods__title {
+    font-size: 2em;
+    margin-left: 6.1em;
+}
+
+.goods__item {
     /* background-color: red; */
     width: 855px;
     height: 237px;
@@ -7,13 +12,17 @@
 
     /* justify-content: ; */
 }
-.good__img{
+
+.good__img {
     width: 411px;
     height: 237px;
 }
 
-.good-container{
-    color: #FFFFFF ;
+
+
+
+.good-container {
+    color: #FFFFFF;
     width: 444px;
     background-color: #031E47;
     /* margin-top: 2em; */
@@ -25,8 +34,9 @@
     gap: 30px;
     /* height: ; */
 }
-.goods__content-info{
-    color: #FFFFFF ;
+
+.goods__content-info {
+    color: #FFFFFF;
     width: 444px;
     /* background-color: #031E47; */
     /* margin-top: 2em; */
@@ -38,7 +48,8 @@
     gap: 30px;
     /* height: ; */
 }
-.goods__content-info>div{
+
+.goods__content-info>div {
     margin: 0;
     /* padding-left: 2em;
     padding-right: 2em; */
@@ -48,7 +59,8 @@
     justify-content: space-between;
     /* height: ; */
 }
-.goods__content-title{
+
+.goods__content-title {
     color: #FFFFFF;
     font-family: 'helvetica';
     font-weight: 400;
@@ -58,7 +70,7 @@
     /* margin: ; */
 }
 
-.goods__content-info-item{
+.goods__content-info-item {
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -75,12 +87,41 @@
 
 /* сетка */
 
-.goods__content{
+.goods__content {
     display: grid;
     grid-template-columns: repeat(2, 855px);
-    grid-template-rows:repeat(2, 237px);
+    grid-template-rows: repeat(2, 237px);
     grid-column-gap: 15px;
-    grid-row-gap: 40px 
+    grid-row-gap: 40px
+}
+
+.goods>.container {
+    display: flex;
+    flex-direction: column;
+
+}
 
 
+.goods__span {
+    align-self: flex-end;
+    /* font-family: ; */
+    font-size: 34px;
+    margin-top: 2.25em;
+    margin-right: 3.25em;
+    border-bottom: 2px solid #BC9B6A;
+}
+
+.goods__content-info-item {
+    font-size: 24px;
+}
+
+.country {
+    font-family: 'Cormorant Garamond';
+    font-weight: 400;
+    padding-right: 40px;
+}
+
+.weight {
+    font-family: 'Cormorant Garamond';
+    font-size: 24px;
 }

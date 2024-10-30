@@ -1,0 +1,70 @@
+.newsletter{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+
+
+.newsletter>.container{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__email{
+    background-color: #031E47;
+    width: 790px;
+    height: 90.47px;
+    border-radius: 10px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 37px;
+}
+.form__email-title{
+    color: #ffff;
+    font-size: 32px;
+    font-weight: 400;
+
+}
+.form__email-input{
+    padding-left: 20px;
+    width: 506.33px;
+    height: 36px;
+    border-radius: 20px;
+    font-family: helvetica;
+    color: 594949;
+    font-size: 28px;
+    font-weight: 400;
+
+    font-style: light;
+}
+.form__email-input::placeholder{
+    
+    font-family: helvetica;
+    color: 594949;
+    font-size: 28px;
+    font-weight: 300;
+    font-style: light;
+}
+.forma{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 46px;
+}
+
+.form__email-button{
+    width: 242px;
+    height: 54px;
+    border: 0px;
+    font-size: 26px;
+    border-radius: 50px;
+    color: #ffff;
+    font-family: 'Cormorant Garamond';
+    background-color: #BC9B6A ;
+
+}
