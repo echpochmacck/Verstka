@@ -168,6 +168,8 @@ h4,h5 {
 
 body {
     font-family: 'helvetica';
+    background-image:url('/img/istockphoto-973564738-612x612\ \(1\)\ 4.png');
+    /* opacity: 0.0; */
 }
 
 :root {

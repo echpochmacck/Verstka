@@ -1,6 +1,47 @@
+.about{
+    padding-top: 92px;
+}
+
+
 .about>.container{
+    /* margin-top: 92px; */
     /* background-color: red; */
     display: flex;
     justify-content: center;
+    width: 1346.83px;
+    height: 583px;
+    background-image: url('/img/jean-wimmerlin-ePvBOHsAA54-unsplash.png');
+    background-size: cover;
+
+    /* background-color: #031E47; */
+}
+.about__img {
+    width: 686px;
+    /* background-image: url('/img/jean-wimmerlin-ePvBOHsAA54-unsplash.png');
+    background-size: cover; */
+}
+.about__text-block{
+    padding-left:30px;
+    width: 660px;
+    height: 583px;
+    /* left: 270px; */
+
+    /* width: 660px; */
+
+    /* position: absolute; */
+    border-top-right-radius: 30px;
+    border-bottom-right-radius:30px ;
+    background-color: #031E47;
+
+}
+
+.about__text-title{
+    font-size: 2.5em;
+}
+.about__text-description{
+    width: 579px;
+    color: #ffff;
+    font-size: 32px;
+    font-family: 'Cormorant Garamond';
 }
 

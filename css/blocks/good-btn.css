@@ -8,4 +8,25 @@
     width: 172px;
     height: 36px;
     padding: 6 49;
+
+
 }
+
+.good__btn:hover {
+    background-color: #BC9B6A;
+        color: #fff;
+        border-color: var(--colorBody);
+        transition: 0.5s;
+}
+/* 
+@keyframes colorr {
+    from {
+        background-color: var(--colorBody);
+    }
+
+    to {
+        background-color: #BC9B6A;
+        color: #fff;
+        border-color: var(--colorBody);
+    }
+} */
