@@ -29,6 +29,7 @@
     color: #ffff;
     font-size: 32px;
     font-weight: 400;
+    margin: 0;
 
 }
 .form__email-input{
@@ -39,8 +40,8 @@
     font-family: helvetica;
     color: 594949;
     font-size: 28px;
-    font-weight: 400;
-
+    font-weight: 300;
+    outline: none;
     font-style: light;
 }
 .form__email-input::placeholder{
@@ -67,5 +68,25 @@
     color: #ffff;
     font-family: 'Cormorant Garamond';
     background-color: #BC9B6A ;
+
+}
+
+.form__email-button{
+    width: 242px;
+    height: 54px;
+    border: 0px;
+    font-size: 26px;
+    border-radius: 50px;
+    color: #ffff;
+    font-family: 'Cormorant Garamond';
+    background-color: #BC9B6A ;
+
+}
+
+
+.form__email-button:hover{
+    
+    background-color: #a18254 ;
+    transition: 0.5s;
 
 }

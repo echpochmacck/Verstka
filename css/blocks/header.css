@@ -19,10 +19,11 @@
 .header__logo>svg {
     padding: 10px;
 }
-.header__phone {
+.header__logo-phone {
     color: #BC9B6A;
     text-align: center;
-    padding: 54px;
+    padding-left: 54px;
+    font-size: 1.2em;
 }
  .header__form{
     /* padding-right: 5em ; */
@@ -35,7 +36,7 @@
 .header__input{
     width: 35em;
     border-radius: 50px;
-    height: 23px;
+    height: 25px;
     padding-left: 40px;
     background: no-repeat;
     background-color: #ffff;
@@ -43,12 +44,15 @@
     background-image: url('../../img/lupa.svg');
     background-size:20px;
     background-position:5px;
+    outline: none;
 }
 .header__nav{
     align-self: flex-end;
     padding-right: 1.5em;
 
 }
+
+/* artem fedodorov blows up boom baz baz */
 .header__nav>ul {
     display: flex;
     justify-content: space-between;
