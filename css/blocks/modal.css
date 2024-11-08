@@ -1,0 +1,15 @@
+.modal-container{
+    display: none;
+    height: 435px ;
+    width: 444px ;
+    background-color: red;
+}
+
+.modal-active{
+    position: fixed;
+    display: block;
+    /* width: 100vw; */
+        left: 0;
+        top: 0;
+
+}

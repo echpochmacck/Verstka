@@ -5,7 +5,10 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+
 }
+
+
 .header__logo {
     color: #BC9B6A;
     justify-content: flex-start;
