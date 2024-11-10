@@ -20,7 +20,10 @@ $(()=>{
     $(".header__logo-phone").on('click', (e)=>{{
         $('.modal-container').addClass('modal-active')
     }})
-    $('.btn').on('click', (e)=>{{
-        $('.modal-container').removeClass('modal-active')
+    $('.modal-container').on('click', (e)=>{{
+        if ($(e.target).hasClass('modal-active')) {
+            alert('sdd')
+            $('.modal-container').removeClass('modal-active');
+        }
     }})
 })
