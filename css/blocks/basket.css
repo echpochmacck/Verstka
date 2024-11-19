@@ -1,0 +1,31 @@
+.basket__box {
+    height: 37.865vw;
+
+}
+
+.basket {
+    padding-top: 9.7vh;
+
+}
+
+.basket>.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 1000px; */
+}
+
+.basket__box {
+    width: 57.292vw;
+    border: 2px solid #031F47;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.basket__user-info{
+    padding-top: 10px;
+}
