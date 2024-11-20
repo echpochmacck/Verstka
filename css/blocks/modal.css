@@ -44,6 +44,8 @@
 
 
 .modal-active>.box {
+    position: absolute;
+    top: 10vh;
     width: 400px;
     height: 350px;
     display: flex;

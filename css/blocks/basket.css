@@ -5,7 +5,6 @@
 
 .basket {
     padding-top: 9.7vh;
-
 }
 
 .basket>.container {
@@ -20,12 +19,77 @@
     border: 2px solid #031F47;
     border-radius: 30px;
     display: flex;
-    flex-direction: column;
-    gap: 34px;
-    align-items: center;
+    /* gap: 34px; */
+    justify-content: center;
     /* justify-content: center; */
 }
 
-.basket__user-info{
-    padding-top: 10px;
+.basket__info{
+    padding-top:5vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.basket__user{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 46.979vw;
+}
+
+.basket__user-header{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width:28.281vw;
+    font-family: 'Cormorant Garamond';
+    font-size: 1.5em;
+    align-items: center;
+
+}
+
+.basket_user-data{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.basket__info{
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+}
+
+.circle__user-name{
+    height: 42px;
+    width: 42px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFEDED;
+    color: rgba(41, 41, 41, 1);
+}
+
+.user__update-title{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.basket__change{
+    border-bottom: 1px solid rgba(41, 41, 41, 1);
+}
+
+.basket__user-date{
+    display: flex;
+    gap: 300px;
+    align-items: center;
+}
+
+.basket__phone{
+    font-size: 24px;
+
 }
