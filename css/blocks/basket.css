@@ -203,3 +203,54 @@
   }
   
   */
+
+
+  @media screen and (max-width: 1600px) {
+        .basket__item{
+            width:(calc 328px * 0.95);
+            height: 120px;
+        }   
+
+        .basket__item-box {
+            width: calc(328px * 0.95); /* Уменьшение размера до 95% */
+            height: calc(104px * 0.95);
+        }
+    
+        .basket__item-btn {
+            width: 100px; /* Уменьшение размера до 95% */
+            height: 30px;
+        }
+
+        .goods__content-title{
+            margin: 0 auto;
+            padding-top: 5px;
+            font-size: 1em;
+        
+        }
+
+        .basket__box{
+            width: 1000px;
+            height: 700px;
+            align-items:center
+        }
+
+        .basket__info{
+            width: 1000px   ;
+            align-items:center
+
+        }
+        .basket_grid{
+            width:800px;;
+        }
+
+        .footer__contacts{
+            font-size: 20px;
+        }
+
+        .footer{
+            width: 100vw;
+        }
+        
+        
+        
+  } 
