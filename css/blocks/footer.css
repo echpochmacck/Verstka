@@ -1,26 +1,20 @@
 .footer {
-/* <<<<<<< HEAD */
-    width: 100vw;
+    width: 100%;
     margin-top: 92px;
     background-color: #ffff;
-    /* background-color: #a701ad; */
-
-/* ======= */
-    /* width: 1920px; */
-/* >>>>>>> c5a5fcdad075fa9ef146d17abcfe8930f8595bbd */
     border-top: 1px solid #BC9B6A;
-    /* height: 80px; */
-
 }
 
 
 
 .container-footer {
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: 292929;
     height: 80px;
+    margin: 0 auto;
 }
 
 .contacts {

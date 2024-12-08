@@ -1,0 +1,30 @@
+.good-info{
+    color: #ffff;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    
+}
+.good-info .good__btn {
+    font-family: 'Cormorant Garamond';
+
+}
+
+.about__text-block{
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px; */
+}
+
+.good__data{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.button-box{
+    display: flex;
+    justify-content: flex-end;
+    width: 600px;
+}
