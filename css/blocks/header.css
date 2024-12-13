@@ -85,14 +85,77 @@
     display: flex;
     justify-content: center;
 }
+
+.wrapper{
+    display: none;
+}
 /* 
 *{
     background-color: red;
 } */
 
-@media screen and (min-width: 480px) and (max-width: 1024px){
-    .header>.container{
-        background-color:red;
-    }
+@media screen and (max-width: 430px){
+    
+.header__logo {
+    gap: 37px;
+}
+.header__logo-phone {
+    /* color: #BC9B6A;
+    text-align: center;
+    padding-left: 0px;
+    font-size: 1.2em; */
+    display: none;
+}
+.header__logo>svg {
+    padding: 0px;
+    width: 44px;
+    height: 44px;
+}
+.header > .container{
+    margin: 0 auto;
+    width: 80%;
+    gap: 30px;
+}
+
+.header__form{
+    /* width: 50%; */
+    /* padding-right: 5em ; */
+    margin-left: 0px;
+    /* margin: 0 auto; */
+    /* position: absolute; */
+    /* align-self: center; */
+    /* display: flex; */
+    /* align-items:center */
+   } 
+
+.header__input{
+    width: 223px;
+    border-radius: 50px;
+    height: 25px;
+    padding-left: 0px;
+    background: no-repeat;
+    background-color: #ffff;
+
+    background-image: url('../../img/lupa.svg');
+    background-size:20px;
+    background-position:5px;
+    outline: none;
+}
+
+.header__nav{
+    display: none;
+}
+.wrapper{
+    display: flex;
+    width: 53px;
+    height: 53px;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper svg {
+    width: 40px;
+    height: 40px;
+}
+
 }
   
