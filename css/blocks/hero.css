@@ -21,3 +21,45 @@
 .arrow__left{
     padding-right: 47px;
 }
+
+@media screen and (max-width: 430px){
+    .hero-flex {
+        /* <<<<<<< HEAD */
+            width: 417px;
+        /* ======= */
+            width: 89.583vw;
+        /* >>>>>>> c5a5fcdad075fa9ef146d17abcfe8930f8595bbd */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero__slider {
+            display: flex;
+            align-items: center;
+        }
+        
+        .arrow__right{
+            /* padding-left: 47px; */
+
+            display: none;
+        }
+        
+        .arrow__left{
+            /* padding-right: 47px; */
+            display: none;
+        }
+        .hero__title {
+            font-size: 30px;
+        }
+        #hero_img{
+            width: 417px;
+            height: 153px;
+        }
+        .container-2{
+            width: 417px;
+        }
+        
+    
+}
+      
+    
