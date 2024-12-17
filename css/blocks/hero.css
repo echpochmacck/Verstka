@@ -22,12 +22,13 @@
     padding-right: 47px;
 }
 
+
 @media screen and (max-width: 430px){
     .hero-flex {
         /* <<<<<<< HEAD */
-            width: 417px;
+            /* width: 417px; */
         /* ======= */
-            width: 89.583vw;
+            width: 98.118vw;
         /* >>>>>>> c5a5fcdad075fa9ef146d17abcfe8930f8595bbd */
             display: flex;
             justify-content: center;
@@ -50,9 +51,10 @@
         }
         .hero__title {
             font-size: 30px;
+            margin-left: 1.125em;
         }
         #hero_img{
-            width: 417px;
+            width: 98.118vw;
             height: 153px;
         }
         .container-2{

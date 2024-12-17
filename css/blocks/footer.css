@@ -66,10 +66,85 @@
     color: red;
 }
 
-.goods__item-buy{
+/* .goods__item-buy{
     display: flex;
     justify-content: center;
     align-items:center;
     gap: 20px;
 }
+ */
 
+ 
+@media screen and (max-width: 430px){    
+    
+    .footer {
+        width: 100%;
+        margin-top: 92px;
+        background-color: #ffff;
+        border-top: 1px solid #BC9B6A;
+    }
+    .footer svg {
+        width: 26px;
+        height: 26px;
+    }
+    
+    .box__email {
+        display: none;
+    }
+    
+    .container-footer {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: 292929;
+        height: 80px;
+        margin: 0 auto;
+    }
+    
+    .contacts {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        flex-direction: column;
+    }
+    
+    .footer__img-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 22px;
+    }
+    
+    .footer__contacts {
+        font-family: "Lato";
+        font-size: 20px;
+        font-weight: 300;
+
+    
+    
+    }
+    
+    
+    .footer__email {
+        font-family: "Lato";
+        font-weight: 300;
+        font-style: italic; 
+        padding-left: 4em;
+        font-size: 25px;
+    
+    }
+    /* address {
+        text-decoration: none; */
+    
+    .footer__adress {
+        display: none;
+    }
+    
+    .goods__content-price>span{
+        font-weight: 600;
+        color: red;
+    }
+    
+}

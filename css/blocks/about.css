@@ -45,3 +45,11 @@
     font-family: 'Cormorant Garamond';
 }
 
+
+
+@media screen and (max-width: 430px){    
+
+    .about{
+        display: none;
+    }
+}

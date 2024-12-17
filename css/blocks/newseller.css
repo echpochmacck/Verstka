@@ -90,3 +90,94 @@
     transition: 0.5s;
 
 }
+
+
+@media screen and (max-width: 430px){    
+    
+    .newsletter{
+        /* background-color: red; */
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+     
+    
+    
+    .newsletter>.container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 94.118vw;
+    }
+    
+    .form__email{
+        background-color: #031E47;
+        width: 77.647vw;
+        height: 5.223vh;
+        border-radius: 10px ;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 8px;
+    }
+    .form__email-title{
+        color: #ffff;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0;
+    
+    }
+    .form__email-input{
+        padding-left: 20px;
+        width: 47.059vw;
+        height: 18.38px;
+        border-radius: 20px;
+        font-family: helvetica;
+        color: 594949;
+        font-size: 12px;
+        font-weight: 300;
+        outline: none;
+        font-style: light;
+    }
+    .form__email-input::placeholder{
+        
+        font-family: helvetica;
+        color: 594949;
+        font-size: 12px;
+        font-weight: 300;
+        font-style: light;
+    }
+    .forma{
+        align-items: center;
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: column;
+        gap: 16px;
+        width:  72.941vw;
+
+    }
+    
+    .form__email-button{
+        width: 40.179vw;
+        height: 30px;
+        border: 0px;
+        font-size: 20px;
+        border-radius: 50px;
+        color: #ffff;
+        font-family: 'Cormorant Garamond';
+        background-color: #BC9B6A ;
+        align-self: flex-end;
+    
+    }
+    
+    
+    .form__email-button:hover{
+        
+        background-color: #a18254 ;
+        transition: 0.5s;
+    
+    }
+     
+    
+}

@@ -114,7 +114,8 @@
 .header > .container{
     margin: 0 auto;
     width: 80%;
-    gap: 30px;
+    gap: 7.059vw;
+    width: 100%;
 }
 
 .header__form{

@@ -13,7 +13,6 @@
     height: 237px;
     display: flex;
     background-color: #031E47;
-
     /* justify-content: ; */
 }
 
@@ -21,6 +20,10 @@
     width: 411px;
     height: 237px;
 }
+
+/* .goods__content-data{
+    display: none;
+} */
 
 
 
@@ -53,7 +56,18 @@
     /* height: ; */
 }
 
-.goods__content-info>div {
+
+.goods__content-data {
+    margin: 0;
+    /* padding-left: 2em;
+    padding-right: 2em; */
+
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    /* height: ; */
+}
+.goods__content-price{
     margin: 0;
     /* padding-left: 2em;
     padding-right: 2em; */
@@ -73,6 +87,10 @@
     /* padding-left: 2em; */
     /* margin: ; */
 }
+.goods__title {
+    font-size: 2em;
+    margin-left: 3.125em;
+}
 
 .goods__content-info-item {
     display: flex;
@@ -87,6 +105,14 @@
     font-size: 1.75em;
     /* color: red; */
 }
+.goods__item-buy{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 20px;
+}
+
+
 
 
 /* сетка */
@@ -128,4 +154,168 @@
 .weight {
     font-family: 'Cormorant Garamond';
     font-size: 24px;
+}
+
+
+@media screen and (max-width: 430px){    
+    .goods{
+        padding-top: 2.1875em;
+    }
+
+    .goods__content-title {
+        font-weight: 400;
+        margin-top: 1em;
+        margin-right: 1.5em;
+        /* padding-left: 2em; */
+        /* margin: ; */
+    }
+   
+    
+    .goods__item {
+        /*hebackground-color: red; */
+        height: 39.478vh;
+        width:  47.529vw;
+        display: flex;
+        flex-direction: column;
+        background-color: #031E47;
+    
+        /* justify-content: ; */
+    }
+
+
+    .good__img > img {
+        width:  47.529vw;
+        height: 15.822vh;
+    }
+    .good__img{
+        width: 47.529vw;
+        height: 15.822vh;
+    }
+
+
+    .good-container {
+        color: #FFFFFF;
+        width: 47.529vw;
+        background-color: #031E47;
+        /* margin-top: 2em; */
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        /* flex-direction: column; */
+        /* align-items: flex-start; */
+        gap: 30px;
+        /* height: ; */
+    }
+    .goods__content-info {
+        color: #FFFFFF;
+        width: 47.529vw;
+        /* background-color: #031E47; */
+        /* margin-top: 2em; */
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        /* gap: 15px; */
+        /* height: ; */
+    }
+    .goods__content-data{
+        display: none;
+    }
+    .goods__content-price{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 80%;
+    }
+    
+ 
+    .goods__content-data{
+        display: none;
+    }
+    
+    .goods__content-info-item {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .goods__item-buy>span {
+        font-weight: 600;
+        font-style: bold;
+        font-size: 18px;
+        /* color: red; */
+    }
+    
+    .goods__item-buy>span {
+        font-weight: 600;
+        font-style: bold;
+        font-size: 18px;
+        /* color: red; */
+    }
+    .goods__item-buy>svg{
+        width: 12px;
+        height: 16px;
+    }
+  
+    .goods__item-buy{
+        display: flex;
+        justify-content: start;
+        align-items:center;
+        gap: 10px;
+    }
+    
+    
+    
+    
+    /* сетка */
+    
+    .goods__content {
+        display: grid;
+        grid-template-columns: repeat(2, 47.529vw);
+        grid-template-rows: repeat(2, 39.478vh);
+        grid-column-gap: 10px;
+        grid-row-gap: 60px
+    }
+    
+    .goods>.container {
+        display: flex;
+        flex-direction: column;
+        width: 96.583vw;
+    
+    }
+    
+    
+    .goods__span {
+        align-self: flex-end;
+        /* font-family: ; */
+        font-size: 34px;
+        margin-top: 2.25em;
+        margin-right: 1.25em;
+        border-bottom: 2px solid #BC9B6A;
+    }
+    
+    .goods__content-info-item {
+        font-size: 24px;
+    }
+
+    
+    .country {
+        font-family: 'Cormorant Garamond';
+        font-weight: 400;
+        padding-right: 40px;
+    }
+    
+    .weight {
+        font-family: 'Cormorant Garamond';
+        font-size: 24px;
+    }
+    
+    .good__btn{
+         /* margin-bottom: 10px; */
+    }
+    .goods__title {
+        margin-left: 1.125em;
+    }
+    
 }

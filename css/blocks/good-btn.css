@@ -30,3 +30,14 @@
         border-color: var(--colorBody);
     }
 } */
+
+
+@media screen and (max-width: 430px){  
+    .good__btn {
+        width: 36.471vw;
+        height: 4.301vh;
+        padding: 6 49;
+    
+    }  
+    
+}
