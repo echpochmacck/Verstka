@@ -47,6 +47,8 @@
     font-style: italic; 
     padding-left: 4em;
     font-size: 25px;
+    text-decoration: none;
+    color: rgb(21, 21, 21)
 
 }
 /* address {

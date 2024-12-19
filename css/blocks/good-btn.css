@@ -1,7 +1,7 @@
 .good__btn {
     background-color: var(--colorBody);
     border-radius: 100px;
-    border: 1 solid;
+    border: 1px solid;
     border-color: #BC9B6A;
     color: #BC9B6A;
     /* font-family: 'Cormorant Garamond'; */
