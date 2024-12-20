@@ -38,7 +38,7 @@
     height: 36px;
     border-radius: 20px;
     font-family: helvetica;
-    color: 594949;
+    color: rgb(59,49,49);
     font-size: 28px;
     font-weight: 300;
     outline: none;
@@ -47,7 +47,7 @@
 .form__email-input::placeholder{
     
     font-family: helvetica;
-    color: 594949;
+    color: rgb(59,49,49);
     font-size: 28px;
     font-weight: 300;
     font-style: light;
@@ -134,7 +134,7 @@
         height: 18.38px;
         border-radius: 20px;
         font-family: helvetica;
-        color: 594949;
+        color:  rgb(59,49,49);
         font-size: 12px;
         font-weight: 300;
         outline: none;
@@ -143,7 +143,7 @@
     .form__email-input::placeholder{
         
         font-family: helvetica;
-        color: 594949;
+        color:  rgb(59,49,49);
         font-size: 12px;
         font-weight: 300;
         font-style: light;

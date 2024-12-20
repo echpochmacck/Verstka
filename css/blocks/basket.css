@@ -221,7 +221,7 @@
 
   @media screen and (max-width: 1600px) {
         .basket__item{
-            width:(calc 328px * 0.95);
+            width:calc (328px * 0.95);
             height: 140px;
         }   
 

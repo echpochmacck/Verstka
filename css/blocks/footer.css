@@ -1,4 +1,5 @@
 .footer {
+    position: absolute;
     width: 100%;
     margin-top: 92px;
     background-color: #ffff;
@@ -12,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: 292929;
+    color: rgb(21, 21, 21);
     height: 80px;
     margin: 0 auto;
 }
@@ -93,13 +94,12 @@
     .box__email {
         display: none;
     }
-    
     .container-footer {
         width: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
-        color: 292929;
+        color:rgb(21, 21, 21);
         height: 80px;
         margin: 0 auto;
     }

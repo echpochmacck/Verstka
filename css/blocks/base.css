@@ -168,11 +168,8 @@ h4,h5 {
 
 body {
     font-family: 'helvetica';
-    background-image:url('/img/background.png');
-    /* background-color:rgb(255, 0, 255); */
-    /* color: blueviolet; */
-
-    /* opacity: 0.0; */
+    /* background-image:url('/img/background.png'); */
+    height: 100%;
 }
 
 :root {
@@ -190,6 +187,9 @@ body {
     /* background-color: var(--colorBody); */
 
 }
+/* main{
+    flex-grow: 1;
+} */
 
 .container {
     margin: 0 auto;
