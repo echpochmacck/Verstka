@@ -85,7 +85,7 @@
 
 .goods__item-buy>span {
     font-weight: 600;
-    font-style: bold;
+    /* font-style: bold; */
     font-size: 1.75em;
     /* color: red; */
 }
@@ -144,6 +144,7 @@
 @media screen and (max-width: 430px){    
     .goods{
         padding-top: 2.1875em;
+        width: 99vw;
     }
 
     .goods__content-title {
@@ -188,6 +189,7 @@
         /* flex-direction: column; */
         /* align-items: flex-start; */
         gap: 30px;
+        /* align-self: center; */
         /* height: ; */
     }
     .goods__content-info {
@@ -226,14 +228,12 @@
     }
     .goods__item-buy>span {
         font-weight: 600;
-        font-style: bold;
         font-size: 18px;
         /* color: red; */
     }
     
     .goods__item-buy>span {
         font-weight: 600;
-        font-style: bold;
         font-size: 18px;
         /* color: red; */
     }

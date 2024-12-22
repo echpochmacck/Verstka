@@ -1,5 +1,6 @@
 .footer {
     position: absolute;
+    /* z-index: 2; */
     width: 100%;
     margin-top: 92px;
     background-color: #ffff;

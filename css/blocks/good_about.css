@@ -11,11 +11,11 @@
 
 }
 
-.about__text-block{
+/* .about__text-block{ */
     /* display: flex;
     flex-direction: column;
     gap: 20px; */
-}
+/* } */
 
 .good__data{
     display: flex;

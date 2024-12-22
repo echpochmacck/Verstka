@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    /* text-decoration: none; */
 
 }
 
@@ -114,7 +115,7 @@
 .header > .container{
     margin: 0 auto;
     width: 80%;
-    gap: 7.059vw;
+    gap: 2vw;
     width: 100%;
 }
 
@@ -148,14 +149,17 @@
 }
 .wrapper{
     display: flex;
-    width: 53px;
-    height: 53px;
+    width: 12.471vw;
+    height: 12.471vw;
     justify-content: center;
     align-items: center;
 }
+.goods__content-info{
+    margin-left: 10px;
+}
 .wrapper svg {
-    width: 40px;
-    height: 40px;
+    width: 9.412vw;
+    height: 9.412vw;
 }
 
 }

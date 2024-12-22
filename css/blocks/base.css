@@ -3,6 +3,7 @@
     src: local('../fonts/helvetica_bold.otf');
     font-weight: bold
 } */
+ 
 
 /* 
 @font-face {
@@ -165,10 +166,13 @@ h4,h5 {
     font-family: 'Cormorant Garamond';
 }
 
+a{
+    text-decoration: none;
+}
 
 body {
     font-family: 'helvetica';
-    /* background-image:url('/img/background.png'); */
+    background-image:url('/img/background.png');
     height: 100%;
 }
 
